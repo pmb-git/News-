@@ -226,7 +226,7 @@ function parseNewsItem(newsNode: NewsObjectRaw): NewsItem {
       image = newsNode[15]?.[3]?.[0];
     } else {
       image = newsNode[8]?.[0]?.[0];
-      image = image ? `/news.google.com/${image}=s0-w500-h500-p-rw-df` : undefined;
+      image = image ? `/news.google.com/${image}` : undefined;
     }
     return {
       title: newsNode[2],
