@@ -2,7 +2,7 @@
   <header class="site-header">
     <div class="site-header-content-container">
       <router-link :to="{ name: 'home' }" class="site-logo-link">
-        <h1 class="site-logo">Newsh</h1>
+        <h1 class="site-logo">PMBLive</h1>
       </router-link>
       <NavBar />
     </div>
